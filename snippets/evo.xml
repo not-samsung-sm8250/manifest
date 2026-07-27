@@ -6,17 +6,10 @@
            revision="refs/heads/cnb" />
 
   <!-- Track EvoX | Los Gerrit -->
-  <remove-project path="bootable/deprecated-ota" />
-  <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" remote="evo" />
-
-  <remove-project path="external/avb" />
-  <project path="external/avb" name="external_avb" remote="evo" />
   <remove-project path="external/dng_sdk" />
   <project path="external/dng_sdk" name="external_dng_sdk" groups="pdk" remote="evo"/>
   <remove-project path="external/libjxl" />
   <project path="external/libjxl" name="external_libjxl" groups="pdk" remote="evo"/>
-  <remove-project path="external/setupcompat" />
-  <project path="external/setupcompat" name="external_setupcompat" remote="evo" />
   <remove-project path="external/v4l2_codec2" />
   <project path="external/v4l2_codec2" name="external_v4l2_codec2" groups="pdk" remote="evo" />
   <remove-project path="external/wpa_supplicant_8" />
